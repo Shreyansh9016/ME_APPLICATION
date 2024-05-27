@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/dot"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/shreyansh" />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Shreyansh Singh"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+    /
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="370dp">
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@drawable/border"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:text=">  Hey everyone my name is Shreyansh Singh
+         \n\n>  I am from Lucknow Uttar pradesh pursuing btech from KIET group of Institution Ghaziabad.
+\n\n>  Currrently I am learning Python and Ml and also excelling my skills in Java and Kotlin for Android Devlopment.
+\n\n>  Since I am a fast learner and a hard worker I will always be paitent to learn new thing so that it can enhance my personality and also help me grow further in life.
+\n\n>  Telling about my goals I had not yet confined them but looking forward to do great for my famil , friends and society.
+\n\n>  Currently I am an open source contributor at GirlScript Summer of Code and also a member of  Innogeeks and DevUp techincal clubs in our college.
+\n\n>  I had done a virtual internship at Bharat Intern as an Android Devloper.
+\n\n>  Looking forward to contribute further with my skills in different domains
+\n\n>  About my educational background, I had done my schooling from Lucknow public school and colleges Lucknow affiliated to ICSE and ISC board and scored 93.8% in 10th and 94.25% in 12th
+\n\n>  About my experience in other domains, I went for SSB in Kolkata for 10+2 Navy entry and Prayagraj for TES-50 entry where I was unfortunately screened out but had a great experience with other from all over India "
+        />
+    </ScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp"
+        android:text="Click on the name to see me"
+        />
+
+</LinearLayout>
